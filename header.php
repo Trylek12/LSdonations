@@ -13,5 +13,5 @@ if(!defined('MyConst')) {
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-Header here
+Only header divs here!
 </body>

@@ -4,4 +4,4 @@ if(!defined('MyConst')) {
 }
 ?>
 
-Copyright will go here!
+Only Footer Divs here!
