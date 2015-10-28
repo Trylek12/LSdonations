@@ -14,3 +14,6 @@ Donation System for Life-Studios
 - Working on system so admins can see who donated and what someone bought in the shop. So they can add it to their account
 
 Adding more features as we go!
+
+# Known Issues:
+- Below a certain resolution has not navigation bar, will fix later - Cole
