@@ -17,8 +17,8 @@ html {
  	overflow-y: scroll;
 }
 body {
-  	margin: 0;
-  	padding: 0;
+  margin: 0;
+  padding: 0;
 	font-family: "Open Sans", Helvetica, Arial, sans-serif;
 	font-size: 13px;
 	line-height: 18px;
@@ -26,6 +26,7 @@ body {
 	cursor: default;
 	-webkit-font-smoothing: subpixel-antialiased;
 	-webkit-text-size-adjust: 100%;
+  background-image: 
 }
 h1,
 h2,
@@ -219,6 +220,7 @@ footer .brand {
 .pricing .plan p {
   	font-size: 11px;
   	margin-top: 20px;
+    text
 }
 .pricing .well {
   	background: #fff;
@@ -288,13 +290,22 @@ label {
   	margin: 0 0 5px;
 }
 /* --------------------------------------------------------	*/
-/*	Alerts - Will do later not important */
+/*	Alerts
 /* --------------------------------------------------------	*/
-
-
-
-
-
+.alert,
+.alert-warning {
+  background: #FFF7D6;
+}
+.alert-success {
+  background: #EDFDD3;
+}
+.alert-info {
+  background: #D6F5FC;
+}
+.alert-danger,
+.alert-error {
+  background: #FFE6E3;
+}
 /* --------------------------------------------------------	*/
 /*	Button */
 /* --------------------------------------------------------	*/
@@ -460,4 +471,32 @@ label {
   footer div {
     text-align: left!important;
   }
+}
+/* --------------------------------------------------------  */
+/*  Thumbnails */
+/* -------------------------------------------------------- */
+.thumbnail {
+  position: relative;
+  background: #fff;
+  overflow: hidden;
+  border-radius: 0;
+
+}
+.thumbnail img {
+  -webkit-transition: opacity 0.2s ease-out;
+  -moz-transition: opacity 0.2s ease-out;
+  -ms-transition: opacity 0.2s ease-out;
+  -o-transition: opacity 0.2s ease-out;
+  transition: opacity 0.2s ease-out;
+}
+.thumbnail:hover img {
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=(80));
+  filter: alpha(opacity = (80));
+  -webkit-opacity: 0.8;
+  -khtml-opacity: 0.8;
+  -moz-opacity: 0.8;
+  opacity: 0.8;
+}
+a.thumbnail:hover {
+  border-color: #AAD3E5;
 }
