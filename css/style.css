@@ -93,10 +93,10 @@ footer {
   	background: #f6f6f6;
   	box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
   	border-top: 1px solid #e6e6e6;
-	font-size: 1.2em;
-	line-height: 1.7em;
-	padding: 36px 0 24px 0;
-	color: #888;
+	  font-size: 1.2em;
+	  line-height: 1.7em;
+	  padding: 36px 0 24px 0;
+	  color: #888;
 }
 footer .brand {
   	font-size: 20px;
@@ -194,6 +194,81 @@ footer .brand {
 }
 .navbar li a {
   	display: block!important;
+}
+/* -------------------------------------------------------- */
+/*  Tabs */
+/* -------------------------------------------------------- */
+.nav-tabs {
+    padding-left: 3px;
+}
+.nav-tabs > li {
+    margin-left: -3px;
+}
+.nav-tabs > li > a {
+    border-radius: 0;
+    border: 1px solid #ccc;
+    background: #f6f6f6;
+    color: #222;
+}
+.nav-tabs > li.active > a {
+    border-bottom: 1px solid #fff;
+    background: #fff;
+    color: #000000;
+}
+.nav-tabs > li:hover > a {
+    background: #eee;
+    color: #000;
+    border: 1px solid #ccc;
+}
+.tab-content {
+    border: 1px solid #ccc;
+    border-width: 0 1px 1px 1px;
+    margin-top: -20px;
+    padding: 20px;
+    background: white;
+}
+/* ---------------------------------------------------------------------- */
+/*  Tables
+/* ---------------------------------------------------------------------- */
+table {
+    color: #444;
+    width: 100%;
+    border-collapse: collapse;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ccc;
+}
+table thead tr {
+    border: 0;
+}
+table thead th {
+    background: #eee;
+    font-weight: 600;
+    text-align: left;
+    color: #222;
+    padding: 6px 10px;
+    border: 0px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    background-image: linear-gradient(bottom, #f2f2f2 46%, #fafafa 92%);
+    background-image: -o-linear-gradient(bottom, #f2f2f2 46%, #fafafa 92%);
+    background-image: -moz-linear-gradient(bottom, #f2f2f2 46%, #fafafa 92%);
+    background-image: -webkit-linear-gradient(bottom, #f2f2f2 46%, #fafafa 92%);
+    background-image: -ms-linear-gradient(bottom, #f2f2f2 46%, #fafafa 92%);
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.46, #f2f2f2), color-stop(0.92, #fafafa));
+}
+table td {
+    padding: 4px 10px;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+}
+table tr:last-child td {
+    border-bottom: 1px solid #ccc;
+}
+table tr:nth-child(even) td {
+    background: #fafafa;
+}
+table tr:hover td {
+    background: #EAF5FA;
 }
 /* --------------------------------------------------------	*/
 /*	Pricing/Packages */
