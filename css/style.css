@@ -116,14 +116,6 @@ footer .brand {
   	padding-top: 0px;
   	margin: 0;
 }
-.social-icons {
-  	position: absolute;
-  	top: 6px;
-  	right: 0;
-}
-.social-icons a {
-  	margin: 0 6px 0 0;
-}
 .navbar .container {
   	width: 940px;
   	position: relative;
@@ -140,7 +132,7 @@ footer .brand {
   	-webkit-box-shadow: none;
   	-moz-box-shadow: none;
   	-o-box-shadow: none;
- 	box-shadow: none;
+ 	  box-shadow: none;
 }
 .navbar .nav-responsive {
   	display: none;
