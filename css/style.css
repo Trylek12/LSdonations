@@ -247,7 +247,7 @@ table thead th {
     text-align: left;
     color: #222;
     padding: 6px 10px;
-    border: 0px solid #ddd;
+    border: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
     background-image: linear-gradient(bottom, #f2f2f2 46%, #fafafa 92%);
     background-image: -o-linear-gradient(bottom, #f2f2f2 46%, #fafafa 92%);
@@ -259,7 +259,7 @@ table thead th {
 table td {
     padding: 4px 10px;
     background: #fff;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #ccc;
 }
 table tr:last-child td {
     border-bottom: 1px solid #ccc;
