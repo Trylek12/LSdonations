@@ -97,6 +97,10 @@ footer {
 	  line-height: 1.7em;
 	  padding: 36px 0 24px 0;
 	  color: #888;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
 }
 footer .brand {
   	font-size: 20px;
