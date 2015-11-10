@@ -29,7 +29,9 @@ body {
   background-image: 
 }
 h1,
-h2,
+h2 {
+  text-align: right;
+}
 h3,
 h4,
 h5,
@@ -190,6 +192,67 @@ footer .brand {
 }
 .navbar li a {
   	display: block!important;
+}
+/* -------------------------------------------------------- */
+/*  Navigation - dropdown */
+/* -------------------------------------------------------- */
+.navbar .nav li.dropdown:hover {
+    border-radius: 3px;
+}
+.navbar .nav li.dropdown:hover {
+    background: #444;
+}
+.navbar .nav li.dropdown a {
+    text-decoration: none;
+}
+.navbar .nav li.dropdown:hover a {
+    color: #fff!important;
+}
+.navbar .nav li.dropdown ul li:first-child {
+    border-radius: 0 3px 0 0;
+    -moz-border-radius: 0 3px 0 0;
+    -webkit-border-radius: 0 3px 0 0;
+}
+.navbar .nav li.dropdown ul li:last-child {
+    border-radius: 0 0 3px 3px;
+    -moz-border-radius: 0 0 3px 3px;
+    -webkit-border-radius: 0 0 3px 3px;
+}
+.navbar .nav li ul {
+    margin: 0;
+    display: none;
+    z-index: 99;
+}
+.navbar .nav li ul li {
+    margin: 0;
+    padding: 0;
+    background: #444;
+    width: 160px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.navbar .nav li ul li:hover {
+    background: #e84e39;
+}
+.navbar .nav li ul li a {
+    padding: 6px 10px;
+    margin: 0;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.9em;
+}
+.navbar .nav li:hover ul {
+    margin: 0;
+    list-style-type: none;
+    margin: 0;
+    display: block;
+    position: absolute;
+    top: 2.9em;
 }
 /* -------------------------------------------------------- */
 /*  Tabs */
