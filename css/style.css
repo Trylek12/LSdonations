@@ -714,7 +714,6 @@ a.thumbnail:hover {
     overflow: hidden;
     position: relative;
     text-align: center;
-    cursor: pointer;
     border-radius: 0;
     background: #fff
 }
