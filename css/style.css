@@ -17,8 +17,8 @@ html {
  	overflow-y: scroll;
 }
 body {
-  margin: 0;
-  padding: 0;
+  	margin: 0;
+  	padding: 0;
 	font-family: "Open Sans", Helvetica, Arial, sans-serif;
 	font-size: 13px;
 	line-height: 18px;
@@ -26,7 +26,7 @@ body {
 	cursor: default;
 	-webkit-font-smoothing: subpixel-antialiased;
 	-webkit-text-size-adjust: 100%;
-  background-image: 
+  	background-image: 
 }
 h1,
 h2,
@@ -299,19 +299,19 @@ table thead tr {
     border: 0;
 }
 table thead th {
-    background: #eee;
-    font-weight: 600;
-    text-align: left;
-    color: #222;
-    padding: 6px 10px;
-    border: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
-    background-image: linear-gradient(bottom, #f2f2f2 46%, #fafafa 92%);
-    background-image: -o-linear-gradient(bottom, #f2f2f2 46%, #fafafa 92%);
-    background-image: -moz-linear-gradient(bottom, #f2f2f2 46%, #fafafa 92%);
-    background-image: -webkit-linear-gradient(bottom, #f2f2f2 46%, #fafafa 92%);
-    background-image: -ms-linear-gradient(bottom, #f2f2f2 46%, #fafafa 92%);
-    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.46, #f2f2f2), color-stop(0.92, #fafafa));
+	background: #eee;
+	font-weight: 600;
+	text-align: left;
+	color: #222;
+	padding: 6px 10px;
+	border: 1% solid #ddd;
+	border-bottom: 1px solid #ddd;
+	background-image: linear-gradient(bottom, #f2f2f2 46%, #fafafa 92%);
+	background-image: -o-linear-gradient(bottom, #f2f2f2 46%, #fafafa 92%);
+	background-image: -moz-linear-gradient(bottom, #f2f2f2 46%, #fafafa 92%);
+	background-image: -webkit-linear-gradient(bottom, #f2f2f2 46%, #fafafa 92%);
+	background-image: -ms-linear-gradient(bottom, #f2f2f2 46%, #fafafa 92%);
+	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.46, #f2f2f2), color-stop(0.92, #fafafa));
 }
 table td {
     padding: 4px 10px;
@@ -455,7 +455,7 @@ select:hover {
 input:focus,
 textarea:focus,
 select:focus {
-  border-color: #ccc;
+	border-color: #ccc;
 }
 select,
 option {
