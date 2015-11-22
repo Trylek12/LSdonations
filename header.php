@@ -16,22 +16,22 @@
 		<nav class="navbar">
 			<div class="navbar-inner">
 				<div class="container">
-					<a class="brand" href="index.html" title="">LS-Donations</a> <!-- Change links to php when done -->
+					<a class="brand" href="index.php" title="">LS-Donations</a> <!-- Change links to php when done -->
 					<ul class="nav">
-						<li><a href="index.html" title="Packages">Packages</a>
-						<li><a href="shop.html" title="Shop">Shop</a>
-						<li><a href="profile.html" title="Profile">Profile</a>
-						<li><a href="gift.html" title="Gift">Gift</a>
+						<li><a href="index.php" title="Packages">Packages</a>
+						<li><a href="shop.php" title="Shop">Shop</a>
+						<li><a href="profile.php" title="Profile">Profile</a>
+						<li><a href="gift.php" title="Gift">Gift</a>
 						<li class="dropdown">
 							<a title="Admin">Admin Panel</a>
 							<ul>
-								<li><a href="packages_admin.html" title="Add/Remove Packages">Edit Packages</a></li>
-								<li><a href="shop_admin.html" title="Add/Remove Shop">Edit Shop</a></li>
-								<li><a href="donation.html" title="View Donation History">Donation History</a></li>
-								<li><a href="purchases_admin.html" title="View Purchase History">Purchase History</a></li>
-								<li><a href="gift_admin.html" title="View Gift History">Gift History</a></li>
-								<li><a href="players.html" title="Player Control">Player Control</a></li>
-								<li><a href="admins.html" title="Control Site Admins">Admin Control</a></li>
+								<li><a href="packages_admin.php" title="Add/Remove Packages">Edit Packages</a></li>
+								<li><a href="shop_admin.php" title="Add/Remove Shop">Edit Shop</a></li>
+								<li><a href="donation.php" title="View Donation History">Donation History</a></li>
+								<li><a href="purchases_admin.php" title="View Purchase History">Purchase History</a></li>
+								<li><a href="gift_admin.php" title="View Gift History">Gift History</a></li>
+								<li><a href="players.php" title="Player Control">Player Control</a></li>
+								<li><a href="admins.php" title="Control Site Admins">Admin Control</a></li>
 							</ul>
 						</li>
 						<li><a href="logout.php" title="logout">Logout</a>
